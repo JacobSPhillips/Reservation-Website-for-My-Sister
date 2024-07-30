@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Reservation</title>
+</head>
+
+<body>
+    <h1>New Reservation</h1>
+    <form method="post" action="/reservations">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="date">Date of reservation:</label>
+            <input type="text" name="date" id="date">
+        </div>
+        <div>
+            <label for="startTime">Starting Time:</label>
+            <input type="text" name="startTime" id="startTime">
+            <label for="endTime">Ending Time:</label>
+            <input type="text" name="endTime" id="endTime">
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <a href="/reservations">Back to Reservation List</a>
+</body>
+
+</html>
